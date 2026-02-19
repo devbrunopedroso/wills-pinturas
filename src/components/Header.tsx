@@ -48,7 +48,7 @@ export default function Header() {
                 scrolled ? "text-primary" : "text-white"
               }`}
             >
-              Wills{" "}
+              MB{" "}
               <span
                 className={scrolled ? "text-accent" : "text-accent-light"}
               >

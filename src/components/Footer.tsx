@@ -14,7 +14,7 @@ export default function Footer() {
                 W
               </div>
               <span className="text-xl font-bold">
-                Wills <span className="text-accent">Pinturas</span>
+                MB <span className="text-accent">Pinturas</span>
               </span>
             </div>
             <p className="text-white/60 text-sm leading-relaxed">
