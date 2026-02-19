@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -81,6 +81,17 @@ export default function Footer() {
                   className="hover:text-accent transition-colors"
                 >
                   MBpinturas0329@gmail.com
+                </a>
+              </li>
+              <li className="flex items-center gap-3">
+                <Instagram size={16} className="text-accent shrink-0" />
+                <a
+                  href="https://www.instagram.com/mbpin.turas"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-accent transition-colors"
+                >
+                  @mbpin.turas
                 </a>
               </li>
               <li className="flex items-start gap-3">

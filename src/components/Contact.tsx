@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle, Instagram } from "lucide-react";
 import ContactForm from "./ContactForm";
 
 const contactInfo = [
@@ -22,6 +22,12 @@ const contactInfo = [
     label: "E-mail",
     value: "MBpinturas0329@gmail.com",
     href: "mailto:MBpinturas0329@gmail.com",
+  },
+  {
+    icon: Instagram,
+    label: "Instagram",
+    value: "@mbpin.turas",
+    href: "https://www.instagram.com/mbpin.turas",
   },
   {
     icon: MapPin,
