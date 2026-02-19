@@ -106,7 +106,7 @@ export default function Gallery() {
                 {item.image ? (
                   <Image
                     src={item.image}
-                    alt={`${item.title} - ${item.subtitle} | Wills Pinturas`}
+                    alt={`${item.title} - ${item.subtitle} | MB Pinturas`}
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

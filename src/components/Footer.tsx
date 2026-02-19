@@ -68,7 +68,7 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-accent shrink-0" />
                 <a
-                  href="tel:+5542987000000"
+                  href="tel:+5542984045089"
                   className="hover:text-accent transition-colors"
                 >
                   (42) 98765-4339
@@ -77,10 +77,10 @@ export default function Footer() {
               <li className="flex items-center gap-3">
                 <Mail size={16} className="text-accent shrink-0" />
                 <a
-                  href="mailto:wills.pinturas@gmail.com"
+                  href="mailto:MBpinturas0329@gmail.com"
                   className="hover:text-accent transition-colors"
                 >
-                  wills.pinturas@gmail.com
+                  MBpinturas0329@gmail.com
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -94,7 +94,7 @@ export default function Footer() {
         {/* SEO rich text */}
         <div className="mt-10 pt-8 border-t border-white/10">
           <p className="text-white/30 text-xs text-center leading-relaxed max-w-3xl mx-auto">
-            Wills Pinturas - Pintor Profissional em Reserva, Paraná. Serviços
+            MB Pinturas - Pintor Profissional em Reserva, Paraná. Serviços
             de pintura projetada, pintura lisa, grafiato, textura, massa
             corrida, pintura residencial e comercial. Atendemos Reserva-PR e
             Imbaú, Cândido de Abreu, Tibagi e toda a região.
@@ -104,7 +104,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="mt-6 pt-6 border-t border-white/10 text-center">
           <p className="text-white/40 text-sm">
-            &copy; {currentYear} Wills Pinturas - Willian da Silva. Todos os
+            &copy; {currentYear} MB Pinturas - Willian da Silva. Todos os
             direitos reservados.
           </p>
         </div>

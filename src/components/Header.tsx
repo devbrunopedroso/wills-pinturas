@@ -71,7 +71,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="tel:+5542987000000"
+              href="tel:+5542984045089"
               className="flex items-center gap-2 bg-accent hover:bg-accent-dark text-white px-4 py-2 rounded-full text-sm font-semibold transition-all hover:scale-105"
             >
               <Phone size={16} />
@@ -109,7 +109,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="tel:+5542987000000"
+              href="tel:+5542984045089"
               className="flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white px-4 py-3 rounded-lg text-sm font-semibold transition-colors mt-2"
             >
               <Phone size={16} />

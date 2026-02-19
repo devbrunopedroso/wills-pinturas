@@ -9,19 +9,19 @@ const contactInfo = [
     icon: Phone,
     label: "Telefone",
     value: "(42) 98765-4339",
-    href: "tel:+5542987000000",
+    href: "tel:+5542984045089",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
     value: "(42) 98765-4339",
-    href: "https://wa.me/5542987000000?text=Olá! Gostaria de solicitar um orçamento de pintura.",
+    href: "https://wa.me/5542984045089?text=Olá! Gostaria de solicitar um orçamento de pintura.",
   },
   {
     icon: Mail,
     label: "E-mail",
-    value: "wills.pinturas@gmail.com",
-    href: "mailto:wills.pinturas@gmail.com",
+    value: "MBpinturas0329@gmail.com",
+    href: "mailto:MBpinturas0329@gmail.com",
   },
   {
     icon: MapPin,
@@ -114,7 +114,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/5542987000000?text=Olá! Gostaria de solicitar um orçamento de pintura."
+              href="https://wa.me/5542984045089?text=Olá! Gostaria de solicitar um orçamento de pintura."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 w-full bg-green-500 hover:bg-green-600 text-white py-4 rounded-xl font-bold transition-all hover:scale-[1.02] hover:shadow-lg mt-6"

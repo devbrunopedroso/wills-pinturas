@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: "Maria Fernanda S.",
     location: "Reserva, PR",
-    text: "O Willian fez um trabalho incrível na minha casa! A pintura ficou perfeita, sem nenhuma falha. Super recomendo a Wills Pinturas para quem busca qualidade e profissionalismo.",
+    text: "O Willian fez um trabalho incrível na minha casa! A pintura ficou perfeita, sem nenhuma falha. Super recomendo a MB Pinturas para quem busca qualidade e profissionalismo.",
     service: "Pintura Lisa",
     rating: 5,
   },

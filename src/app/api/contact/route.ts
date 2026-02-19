@@ -21,13 +21,13 @@ export async function POST(request: Request) {
     });
 
     const mailOptions = {
-      from: `"Wills Pinturas - Site" <${process.env.EMAIL_USER}>`,
+      from: `"MB Pinturas - Site" <${process.env.EMAIL_USER}>`,
       to: process.env.EMAIL_TO,
       subject: `Nova Solicitação de Orçamento - ${servico}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; background: #f8fafc; border-radius: 12px; overflow: hidden;">
           <div style="background: linear-gradient(135deg, #1e3a5f, #2a5298); padding: 30px; text-align: center;">
-            <h1 style="color: white; margin: 0; font-size: 24px;">Wills Pinturas</h1>
+            <h1 style="color: white; margin: 0; font-size: 24px;">MB Pinturas</h1>
             <p style="color: rgba(255,255,255,0.8); margin: 8px 0 0;">Nova Solicitação de Orçamento</p>
           </div>
           <div style="padding: 30px;">
@@ -54,7 +54,7 @@ export async function POST(request: Request) {
           </div>
           <div style="background: #1e293b; padding: 20px; text-align: center;">
             <p style="color: rgba(255,255,255,0.5); margin: 0; font-size: 12px;">
-              Enviado automaticamente pelo site Wills Pinturas
+              Enviado automaticamente pelo site MB Pinturas
             </p>
           </div>
         </div>

@@ -59,7 +59,7 @@ export default function About() {
 
               <div className="relative z-10">
                 <h3 className="text-3xl sm:text-4xl font-extrabold mb-4">
-                  Wills Pinturas
+                  MB Pinturas
                 </h3>
                 <p className="text-white/80 text-lg mb-8">
                   Seu parceiro de confiança em pintura profissional na região de
@@ -95,7 +95,7 @@ export default function About() {
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold text-text-dark mt-3 mb-6">
               Por que escolher a{" "}
-              <span className="text-primary">Wills Pinturas</span>?
+              <span className="text-primary">MB Pinturas</span>?
             </h2>
             <p className="text-text-light leading-relaxed mb-4">
               Sou <strong>Willian da Silva</strong>, pintor profissional
@@ -107,7 +107,7 @@ export default function About() {
               sempre com compromisso, qualidade e respeito ao cliente.
             </p>
             <p className="text-text-light leading-relaxed mb-8">
-              Na <strong>Wills Pinturas</strong>, cada projeto é tratado com
+              Na <strong>MB Pinturas</strong>, cada projeto é tratado com
               dedicação e atenção aos detalhes. Trabalhamos com{" "}
               <strong>pintura projetada, pintura lisa, grafiato, textura,
               massa corrida</strong> e muito mais, sempre buscando superar as

@@ -9,7 +9,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Wills Pinturas | Pintor Profissional em Reserva-PR e Região",
+  title: "MB Pinturas | Pintor Profissional em Reserva-PR e Região",
   description:
     "Serviços profissionais de pintura em Reserva, Imbaú, Cândido de Abreu, Tibagi e região. Pintura projetada, pintura lisa, grafiato, textura, massa corrida e mais. Orçamento grátis!",
   keywords: [
@@ -29,15 +29,15 @@ export const metadata: Metadata = {
     "pintura imbaú paraná",
     "pintura tibagi pr",
     "pintura cândido de abreu pr",
-    "wills pinturas",
+    "MB pinturas",
     "willian da silva pintor",
     "pintura predial reserva",
     "pintura interna reserva pr",
     "pintura externa reserva paraná",
   ],
-  authors: [{ name: "Wills Pinturas - Willian da Silva" }],
-  creator: "Wills Pinturas",
-  publisher: "Wills Pinturas",
+  authors: [{ name: "MB Pinturas - Willian da Silva" }],
+  creator: "MB Pinturas",
+  publisher: "MB Pinturas",
   robots: {
     index: true,
     follow: true,
@@ -52,8 +52,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    siteName: "Wills Pinturas",
-    title: "Wills Pinturas | Pintor Profissional em Reserva-PR e Região",
+    siteName: "MB Pinturas",
+    title: "MB Pinturas | Pintor Profissional em Reserva-PR e Região",
     description:
       "Serviços profissionais de pintura em Reserva, Imbaú, Cândido de Abreu, Tibagi e região. Pintura projetada, grafiato, textura, massa corrida. Orçamento grátis!",
   },
@@ -65,11 +65,11 @@ export const metadata: Metadata = {
 const jsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  name: "Wills Pinturas",
+  name: "MB Pinturas",
   description:
     "Serviços profissionais de pintura em Reserva, Imbaú, Cândido de Abreu, Tibagi e região. Pintura projetada, pintura lisa, grafiato, textura, massa corrida.",
-  telephone: "+5542987000000",
-  email: "wills.pinturas@gmail.com",
+  telephone: "+5542984045089",
+  email: "MBpinturas0329@gmail.com",
   address: {
     "@type": "PostalAddress",
     addressLocality: "Reserva",
