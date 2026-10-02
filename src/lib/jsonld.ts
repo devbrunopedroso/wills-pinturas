@@ -30,7 +30,12 @@ export const siteJsonLd = {
       alternateName: ["MB Pinturas Reserva", "Willian Pintor Reserva-PR"],
       description: business.description,
       url: SITE_URL,
-      logo: abs("/favicon.ico"),
+      logo: {
+        "@type": "ImageObject",
+        url: abs("/logo.png"),
+        width: 512,
+        height: 512,
+      },
       image: [abs(business.ogImage), ...galleryItems.slice(1, 6).map((i) => abs(i.image))],
       telephone: business.phone,
       email: business.email,

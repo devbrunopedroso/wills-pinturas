@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Phone, Mail, MapPin, Instagram } from "lucide-react";
 import { servicePages } from "@/lib/servicePages";
+import Logo from "@/components/Logo";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,14 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 rounded-lg bg-accent flex items-center justify-center font-bold text-xl text-white">
-                W
-              </div>
-              <span className="text-xl font-bold">
-                MB <span className="text-accent">Pinturas</span>
-              </span>
-            </div>
+            <Logo variant="light" className="mb-4" />
             <p className="text-white/60 text-sm leading-relaxed">
               Serviços profissionais de pintura em Reserva, Imbaú, Cândido
               de Abreu, Tibagi e região. Qualidade, pontualidade e compromisso
