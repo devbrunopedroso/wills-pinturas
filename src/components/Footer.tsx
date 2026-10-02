@@ -1,4 +1,6 @@
+import Link from "next/link";
 import { Phone, Mail, MapPin, Instagram } from "lucide-react";
+import { servicePages } from "@/lib/servicePages";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -28,36 +30,16 @@ export default function Footer() {
           <div>
             <h4 className="font-bold text-lg mb-4">Serviços</h4>
             <ul className="space-y-2 text-white/60 text-sm">
-              <li>
-                <a href="#servicos" className="hover:text-accent transition-colors">
-                  Pintura Projetada
-                </a>
-              </li>
-              <li>
-                <a href="#servicos" className="hover:text-accent transition-colors">
-                  Pintura Lisa
-                </a>
-              </li>
-              <li>
-                <a href="#servicos" className="hover:text-accent transition-colors">
-                  Grafiato
-                </a>
-              </li>
-              <li>
-                <a href="#servicos" className="hover:text-accent transition-colors">
-                  Textura
-                </a>
-              </li>
-              <li>
-                <a href="#servicos" className="hover:text-accent transition-colors">
-                  Massa Corrida
-                </a>
-              </li>
-              <li>
-                <a href="#servicos" className="hover:text-accent transition-colors">
-                  Pintura Residencial e Comercial
-                </a>
-              </li>
+              {servicePages.map((s) => (
+                <li key={s.slug}>
+                  <Link
+                    href={`/servicos/${s.slug}`}
+                    className="hover:text-accent transition-colors"
+                  >
+                    {s.name} em Reserva-PR
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 
@@ -71,7 +53,7 @@ export default function Footer() {
                   href="tel:+5542984045089"
                   className="hover:text-accent transition-colors"
                 >
-                  (42) 98765-4339
+                  (42) 98404-5089
                 </a>
               </li>
               <li className="flex items-center gap-3">

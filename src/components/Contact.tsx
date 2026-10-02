@@ -8,13 +8,13 @@ const contactInfo = [
   {
     icon: Phone,
     label: "Telefone",
-    value: "(42) 98765-4339",
+    value: "(42) 98404-5089",
     href: "tel:+5542984045089",
   },
   {
     icon: MessageCircle,
     label: "WhatsApp",
-    value: "(42) 98765-4339",
+    value: "(42) 98404-5089",
     href: "https://wa.me/5542984045089?text=Olá! Gostaria de solicitar um orçamento de pintura.",
   },
   {

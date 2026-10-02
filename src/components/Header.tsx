@@ -1,15 +1,17 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Link from "next/link";
 import { Menu, X, Phone } from "lucide-react";
 
 const navLinks = [
-  { href: "#inicio", label: "Início" },
-  { href: "#servicos", label: "Serviços" },
-  { href: "#sobre", label: "Sobre" },
-  { href: "#galeria", label: "Galeria" },
-  { href: "#depoimentos", label: "Depoimentos" },
-  { href: "#contato", label: "Contato" },
+  { href: "/#inicio", label: "Início" },
+  { href: "/#servicos", label: "Serviços" },
+  { href: "/#sobre", label: "Sobre" },
+  { href: "/#galeria", label: "Galeria" },
+  { href: "/#depoimentos", label: "Depoimentos" },
+  { href: "/#perguntas", label: "Dúvidas" },
+  { href: "/#contato", label: "Contato" },
 ];
 
 export default function Header() {
@@ -33,7 +35,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <a href="#inicio" className="flex items-center gap-2">
+          <Link href="/#inicio" className="flex items-center gap-2">
             <div
               className={`w-10 h-10 rounded-lg flex items-center justify-center font-bold text-xl transition-colors ${
                 scrolled
@@ -55,7 +57,7 @@ export default function Header() {
                 Pinturas
               </span>
             </span>
-          </a>
+          </Link>
 
           {/* Desktop Nav */}
           <nav className="hidden lg:flex items-center gap-8">
@@ -113,7 +115,7 @@ export default function Header() {
               className="flex items-center justify-center gap-2 bg-accent hover:bg-accent-dark text-white px-4 py-3 rounded-lg text-sm font-semibold transition-colors mt-2"
             >
               <Phone size={16} />
-              (42) 98765-4339
+              (42) 98404-5089
             </a>
           </nav>
         </div>

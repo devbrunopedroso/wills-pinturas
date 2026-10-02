@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
 import {
   Paintbrush,
   Layers,
@@ -14,6 +15,7 @@ const services = [
   {
     icon: SprayCan,
     title: "Pintura Projetada",
+    slug: "pintura-projetada",
     description:
       "Acabamento moderno e uniforme com equipamento profissional de alta pressão. Ideal para grandes áreas com resultado perfeito e agilidade na execução.",
     color: "from-blue-500 to-blue-600",
@@ -21,6 +23,7 @@ const services = [
   {
     icon: Paintbrush,
     title: "Pintura Lisa",
+    slug: "pintura-lisa",
     description:
       "Acabamento clássico e elegante para ambientes internos e externos. Pintura lisa de alta qualidade com tintas premium para maior durabilidade.",
     color: "from-emerald-500 to-emerald-600",
@@ -28,6 +31,7 @@ const services = [
   {
     icon: Layers,
     title: "Grafiato",
+    slug: "grafiato",
     description:
       "Textura decorativa que transforma suas paredes com efeito tridimensional sofisticado. Diversos padrões e cores disponíveis para seu projeto.",
     color: "from-purple-500 to-purple-600",
@@ -35,6 +39,7 @@ const services = [
   {
     icon: Wallpaper,
     title: "Textura",
+    slug: "textura",
     description:
       "Aplicação de texturas decorativas que agregam personalidade e valor ao seu imóvel. Vários estilos para combinar com cada ambiente.",
     color: "from-orange-500 to-orange-600",
@@ -42,6 +47,7 @@ const services = [
   {
     icon: PaintBucket,
     title: "Massa Corrida",
+    slug: "massa-corrida",
     description:
       "Preparação e nivelamento perfeito das paredes para um acabamento impecável. Essencial para garantir a qualidade final da pintura.",
     color: "from-red-500 to-red-600",
@@ -49,6 +55,7 @@ const services = [
   {
     icon: Home,
     title: "Pintura Residencial e Comercial",
+    slug: "pintura-residencial",
     description:
       "Atendemos residências, apartamentos, comércios e empresas em Reserva e região. Projetos completos do início ao fim com garantia de qualidade.",
     color: "from-teal-500 to-teal-600",
@@ -99,7 +106,13 @@ function ServiceCard({
         {service.description}
       </p>
 
-      <div className="mt-5">
+      <div className="mt-5 flex flex-wrap gap-x-5 gap-y-2">
+        <Link
+          href={`/servicos/${service.slug}`}
+          className="text-sm font-semibold text-accent-dark hover:text-primary transition-colors"
+        >
+          Saiba mais e veja fotos
+        </Link>
         <a
           href="#contato"
           className="text-sm font-semibold text-primary hover:text-accent transition-colors inline-flex items-center gap-1 group/link"
